@@ -1,7 +1,7 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -37,5 +37,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
+  },
+  "directories": {
+    "test": "test"
   }
 }
